@@ -1,0 +1,1 @@
+﻿package  {	import flash.display.Sprite;		public class PlayerBullet extends Sprite{		public function PlayerBullet() {			with(this.graphics)			{				lineStyle(1, 0xFFFFFF);				moveTo(0, -5);				lineTo(10, 0);				lineTo(0, 5);				lineTo(0, -5);			}		}	}	}
